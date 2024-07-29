@@ -14,7 +14,10 @@ Programa desenvolvido por:
 */
 
 function alphabeticalOrder(word){
-    return word.split('').sort().join('')
+    let converter = word.split('')
+    let ordenar = converter.sort()
+    let juntar = ordenar.join('')
+    return juntar
 }
 
 console.log(alphabeticalOrder('abacate'))

@@ -10,8 +10,8 @@ Programa desenvolvido por:
 */
 
 function minutesToSeconds(num){
-    let segundos = parseFloat(num) * 60
+    let segundos = Number(num) * 60
     return segundos
 }
 
-console.log(`${minutesToSeconds(8)} segundos`)
+console.log(`${minutesToSeconds(1)} segundos`)

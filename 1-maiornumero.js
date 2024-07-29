@@ -9,14 +9,16 @@ Programa desenvolvido por:
  - Rafa
 */
 
-function findMax(num){
-    let max = num[0]
-    num.forEach(number => {
-        if(number > max){
-            max = number
+function findMax(vetor){
+    let total = vetor[0]
+    for (let i = 0; i < vetor.length; i++) {
+        if (vetor[i] > total) {
+            total = vetor[i]
+            
         }
-    })
-    return max
+        
+    }
+    return total
 }
 
 console.log(findMax([2, 8, 3, 11, 5]))

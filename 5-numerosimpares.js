@@ -15,13 +15,12 @@ Programa desenvolvido por:
 */
 
 function getOddNumbers(num){
-    let impar = []
-    num.forEach(number => {
-        if(number % 2 !== 0){
-            impar.push(number)
-        }
-    })
-    return impar
+   let impar = num.filter((numero) => numero % 2 !== 0)
+   return impar
+
+    
+    
 }
 
-console.log(`${getOddNumbers([2, 5, 12, 7, 19])}`)
+
+console.log(`${getOddNumbers([1, 2, 3, 4,5])}`)

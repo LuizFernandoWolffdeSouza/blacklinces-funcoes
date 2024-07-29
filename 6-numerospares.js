@@ -15,13 +15,8 @@ Programa desenvolvido por:
 */
 
 function getEvenNumbers(num){
-    let par = []
-    num.forEach(number => {
-        if(number % 2 == 0){
-            par.push(number)
-        }
-    })
-    return par
+  let par =  num.filter(numero => (numero % 2 == 0))
+  return par
 }
 
-console.log(`${getEvenNumbers([2, 4, 7, 15, 8])}`)
+console.log(`${getEvenNumbers([2, 4, 7, 14, 8])}`)

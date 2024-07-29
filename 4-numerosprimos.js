@@ -8,9 +8,29 @@ se ele é divisível por qualquer número entre 2 e a raiz quadrada do número.
 Você pode usar a função sqrt() da biblioteca Math para calcular isso.
 
 Programa desenvolvido por:
- - Titi
  - Luiz
+ -titiane
  - Samantha
  - Rafa
 */
+
+function isPrime(number) {
+    if (number < 2) {
+        return false;
+    }
+    for (let i = 2; i < number.length; i++) {
+        if (number[i] % i === 0) {
+        return false;
+        }
+    }
+    return true;
+    
+}
+
+
+
+// Exemplos de uso:
+console.log(isPrime(7));  // Retorna true (5 é primo)
+
+
 

@@ -8,14 +8,18 @@ para dividir a string em um array de caracteres, reverse() para
 inverter o array e join('') para juntar os caracteres de volta em uma string.
 
 Programa desenvolvido por:
- - Titi
  - Luiz
+ -  Titiiane
  - Samantha
  - Rafa
 */
 
 function reverseString(word){
-    return word.split('').reverse().join('')
+    let inverter = word.split('')
+    let dividir = inverter.reverse('')
+    let juntar = dividir.join('')
+    return juntar
+    
 }
 
 console.log(reverseString('hello world'))

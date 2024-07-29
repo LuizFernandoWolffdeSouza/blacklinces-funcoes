@@ -14,7 +14,7 @@ Programa desenvolvido por:
 */
 
 function averageArray(num){
-    let soma = parseFloat(num.reduce((acululador, valorAtual) => acululador + valorAtual))
+    let soma = Number(num.reduce((acumulador, valorAtual) => acumulador + valorAtual))
     let media = soma / num.length
     return media.toFixed(2)
 }

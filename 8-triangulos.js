@@ -13,3 +13,18 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function drawTriangle(num) {
+    let asterisco = '*'
+    for (let i = 1; i < num; i++) {
+        asterisco += '*'
+        console.log(asterisco)
+        
+        
+    }
+    
+    
+}
+
+drawTriangle(8)
+

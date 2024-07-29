@@ -3,15 +3,15 @@ Crie uma função chamada sumTwoNumbers que aceite dois números como parâmetro
 a soma deles.
 
 Programa desenvolvido por:
- - Titi
  - Luiz
+ - Titiane
  - Samantha
  - Rafa
 */
 
 function sumTwoNumbers(num1, num2){
-    let soma = parseFloat(num1) + parseFloat(num2)
+    let soma = Number(num1) + Number(num2)
     return soma
 }
 
-console.log(sumTwoNumbers(8.5, 15))
+console.log(sumTwoNumbers(5, 15))

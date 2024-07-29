@@ -3,16 +3,16 @@ Crie uma função chamada greetUsers que aceita um array de nomes e
 exibe uma saudação para cada nome no console.
 
 Programa desenvolvido por:
- - Titi
  - Luiz
+ - Titiane
  - Samantha
  - Rafa
 */
 
-function greetUsers(names){
-    names.forEach(name => {
-        console.log(`Pi oiii, ${name}!!!`)
+function greetUsers(nomes){
+    nomes.forEach(nome => {
+        console.log(`Parabéns, ${nome}!!!`)
     })
 }
 
-greetUsers(['Titi', 'Luiz', 'Sa', 'Rafa'])
+greetUsers([ 'Luiz', 'Titiane', 'Sa', 'Rafa'])

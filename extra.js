@@ -14,6 +14,13 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+let word = [ 2,4]
+let array2 = [3,5]
+let array3 = []
+    let resultado = word.filter((word))
+    
+    
+
 
 /*
 2. Crie uma função chamada drawEvenNumberTriangle que aceite um número n, use a função
